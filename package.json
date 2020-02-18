@@ -1,0 +1,28 @@
+{
+  "name": "@jbulava/twitch-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for the Twitch API (Helix namespace).",
+  "main": "src/index.js",
+  "bin": {
+    "@jbulava/twitch-cli": "bin/twitch-cli",
+    "twitch-cli": "bin/twitch-cli"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "twitch",
+    "helix"
+  ],
+  "author": "Jon Bulava",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "esm": "^3.2.25",
+    "inquirer": "^7.0.4"
+  }
+}
